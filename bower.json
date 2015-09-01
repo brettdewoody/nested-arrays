@@ -1,0 +1,15 @@
+{
+  "name": "nested-arrays",
+  "version": "0.0.0",
+  "authors": [
+    "brettdewoody <brettdewoody@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
