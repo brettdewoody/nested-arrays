@@ -19,6 +19,10 @@ describe('unNestArrayByString()', function() {
   });
 
   it ('should return an unnested array', function(){
+    expect(unNestArrayByString([[1,2,[3]],4])).to.eql([1,2,3,4]);
+  });
+
+  it ('should return an unnested array', function(){
     expect(unNestArrayByString([1,2,3,[4,[5,6]],7])).to.eql([1,2,3,4,5,6,7]);
   });
 
@@ -45,6 +49,10 @@ describe('unNestArray()', function() {
 
   it ('should return an unnested array', function(){
     expect(unNestArray([1,2,3,[4,5],6])).to.eql([1,2,3,4,5,6]);
+  });
+
+  it ('should return an unnested array', function(){
+    expect(unNestArray([[1,2,[3]],4])).to.eql([1,2,3,4]);
   });
 
   it ('should return an unnested array', function(){
