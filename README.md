@@ -15,7 +15,7 @@ Uses built-in JS methods to flatten the array.
 
 `unNestArray()`
 
-Recurses through the array elements, flattening each nested array until the entire array is flattened.
+Recurse through the array elements, flattening each nested array until the entire array is flattened.
 
 ## Testing
 
